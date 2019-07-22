@@ -1,32 +1,33 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+#Language and IDEA specific #
+*.class
+*.project
+*.classpath
 *.iml
-*.ipr
-out/
+*.idea
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Build and binary folder #
+target/
+.metadata/
+.settings/
+bin/
+build/
+.gradle/
 
-### VS Code ###
-.vscode/
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.dll
+
+#Log and other generated files#
+*.keep
+*.keep.*
+*.epoch
+*.out
+*.log
+*.dump
+*.dump.tmp
+*.lock
+*.log.*
+.vagrant
