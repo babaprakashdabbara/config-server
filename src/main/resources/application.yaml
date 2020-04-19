@@ -1,0 +1,65 @@
+spring:
+  config:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:babaprakashdabbara/config-repo.git
+          ignore-local-ssh-settings: true
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIJKAIBAAKCAgEAzmYHie+S0mEHE9LpcBfSsT+TwJtPJwMzKmbZf1gKG2Jexvow
+            +p3OzmC05PieuPfDlAFRpQe2Buciav3ZE1aZ/QzjwF4ljw7Yr3SDKouIOZCAQQCJ
+            BFRsWOQeltv/LrfiniNv6qO/NlmWmhRKHwRHJLe4rRa7Fxc3uS4aslJMz84F7N0v
+            XaEE45Q1z5QKRJhfRS0bZhKU0K/hh7wohcU0pwU55LTZ0RQRnuGh0+s6+zPDUBuJ
+            pwYqQfOCRx3Hl4u7cLdIy9YxXN4rOEFhGsf+zf4TXnNfXlFz4OV40AIssVcK2m7b
+            Eym3LR6lvQ+h8r1CO0HBIaFPbMiqL0xCmcqFRItxje74Reffjf+MA2wUyKCy9VFu
+            FoGxXvBQ/DH/WzwaMBacrAyxwzWvt58Y09j8n7VpcW8+v2flstgx0ZpnQoVrDHOp
+            TXjXIrjsCF/4jwnbkFjmbrpDeJf+peYlQqVNbFf16sS2vvS3L+I83wQUNQgt2NPd
+            vC3N4WCQRNS/3mmdP2AXQmYT+kecZ7CobGCAb/ULs7RW8g8VWFbw7qtYsh+pi0BY
+            JjY6imDbmTO87xBawCqyWqbzK3e191dKIHr+BcgK4VHiuM3vq+KFrTU9k2umSgvV
+            4uWzb+0LfPh6J/oxgQg0LfAtT0xz97RER5hHHZS1YYcdJ3DvbLOKfwke4EUCAwEA
+            AQKCAgAjG9/0arhC6RZXHO1wj9zbIcF0ZfbU4Ap4D/63VraBaf5NQonKV8Wx/WlH
+            +bKmLB8ssfy9Yc5o5jBImt2uGHEhRmwHcPxalV/umJcnSYzmndnzNLAZ+HJlvIgn
+            iUyjGcyGseh7tVb1W8/ubb0eAZBIgqf7aX5xsxVbfqgz5SQDxTvkyssf1iAKxk9Q
+            /BGzEWhDUCT0+/wsc36dpDgQaTdHoe/zI4BZvFwy9pacgcsKqAd1PPnxW28cwNtM
+            VZh6At7jkYnkgo7rCS+45gYqlBKX37xTuLRkSt63RtGCMJyBnhjOh0TkwZfTKP9w
+            ZZRawi7d/ZVorxPfoVKxsPszRevdKtBAgJfX6gu4J0g61+K+JyRZnHtyqV7gAnFu
+            HNhLcE/FwEogJzf3q5dzM7Q6wxxRz8DGW7IPMLZs2ycueyUeJ5IxvQ2feyokSXS6
+            r4Ps9WriU0Id7rivS28lSL59crvK1jcCxy5MKa77GGE3T2D2SvYkdbZEwfdUCBM2
+            VcE9yYQZXA67IR+OmCbQLg6f1bj6mM1fWr/hfJNNrVqDvYrvsYhM3aacnQEuY5IM
+            75jKannwWNlVvYo6OwlT6fAmYMdgaDoAA0OsBgSLWsNgc+RWHRD6pbGw/fQ5amNz
+            f7xTpLfSnA3+Mg+Nqq7c/hDovGu7mN8ShRZyQAWmJevIiLzHgQKCAQEA7BA16cPW
+            9di5ySUVdUGDTMbjKrRQ33UVxZy+V6e/aSjrgFlDYES2OVMizkFTNuCJzy7fOWkI
+            y/TfUwf6iVQRUZ7s2gHZn/hCkYKVASnSCmkRbGlv5iaDWZFpINcJwRmP3iPoSZPG
+            J7M23eniV14Xt6326Ixe5IlaRCWggWOoVnJaVDDe4PUqBC2qqdtfmW6mUvK8vNMC
+            GLYzEoItn/z76GrgPoCH7Z5l4Z7QHfsyqDkd5GwKMwvRAMEY7HAuSEb/GmnAhW9k
+            PC2qQicDsmX+qpKp5u+EgVKY17qcOyBMwD0T4JCWEuZ0J+hy1IHzm6xMtFFZO12t
+            ImZbEIBkohdUeQKCAQEA39R0M07gQEurc6kbtI+15hkQBP2Up/ywv8ByEPDQ/n/2
+            mcGzC5XEnThThrpT6jysQ62GcSngzH60zelphaXyW5AFKcoR0do0HmMEfuWZa0nm
+            2sAFss0ud4EnR3gmTwBi59H8pNBoxcdUnG3Q2Jyh3O+XbZj0YeIDZ5JElyiw6eGe
+            xhaKGjs0BlEPxJnX3HP5LFcOHIzvCIpzDa7Afe6PQiz6DLFySzuGZbEP9ZFfvep0
+            vgPX9vtKi3NJE/R8JJ7uzhc/ioF+DI4TpVvsrIaz3GDh2di2ZbppzsBYuJQbUTTV
+            C7OGOhog/jqxrZAE3ncs/kYxiP463sAKTGA078V/LQKCAQAp8fNydx7yDjFs4U7/
+            x8VJ1ik1RFb+bbKRq3lS3/at+9xksPe82li6tOABYDAmFx3Fl6GIdPZgL0GjYk6N
+            Kkfthdy2HBAMUbOaYWaSj1jICsVSyyVb8snyF1ljwXH1QtKCeUTkFgLmuPxt0Aos
+            1gZG1/2AcrjFyPYmF71+YDPgMG+GeCySMl3l4itqBRXmkHezU3hf4OqFc5J9nm32
+            +J/WO29fC72bZkLaJTr7qM/mfkemd+AUE+xuQuFn2cMPirX3foT78MARxVd0a7RH
+            dcIbkvXnl/WmeQO5iWoLQ4D/w5qNk4NnFlXbZX1J71FW/vWeMLo3RzzlWOSjePzo
+            pFaZAoIBACThzi/yLFOL5HmPgQg0sgVzVcdsvYUcx0chf+o4tEdrcIgPeeBL0nUR
+            pfnKVC+BxeT0//U/sFIiAsr3TjL+kDv0NFWZfWw152ambEQ4sxoRuF+NSqMW2jRI
+            7N8C9lUIPEP0vwutZ8ZHPTL1iXdX//f25t3hWUuTwXnciT7bLqOrUM1VQ3ZlEQKF
+            cvKzYvVpisJ6qdGci3q9zY2QoRlfKO3/mUhkKPAqo8+36GhPhxY1Pv1chsaky7jE
+            y2LlY1tpcPI2tHqvMcUB2EzkI9Cd9Z83u5947T1ABVVTLotjpEiySvS9pT2Htq4N
+            n994nsTFoH1ZtancMnkn7cp+A9sKkRUCggEBAKja8R9m52o/nWdhxywzKvaTIPKT
+            W+W9GbPlXtvMi3RkQY0nplMnpyGOxosg3uslTODJoGnWz2NIz5cZNHMDOYT2eGPA
+            Zyb2fOanMHvm/Yjl8rdBgEQZ5IAQT8tz30STaFvzQmGRy6wMVk5CvjwkGlyKAI+p
+            HIu6WUm8s9Z+X+ESvPzdfcTeuXIgvowlvbeiJq5Lfr7r/pn/0Q3XHf/MA9lVv+82
+            nI87nj3QqBR5+Fbf5hbSOJrAevy3YKecD64LjiwBxaTzJnCtEOW3PhmKpZ0VbvQA
+            MLwqAbU5thKyf7zGAXYqdQztnAorxPKjhyXv4WN5fDOYHTc+NqM6WA6tqFM=
+            -----END RSA PRIVATE KEY-----
+
+
+          search-paths: dev,preprod,prod
+          refresh-rate: 15
