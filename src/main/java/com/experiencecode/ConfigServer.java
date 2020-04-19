@@ -1,4 +1,4 @@
-package configuration.cloudconfig;
+package com.experiencecode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
